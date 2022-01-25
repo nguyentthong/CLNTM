@@ -1,5 +1,6 @@
 # Contrastive Learning for Neural Topic Model
 This repository contains the implementation of the paper [Contrastive Learning for Neural Topic Model](https://arxiv.org/abs/2110.12764).
+
 [Thong Nguyen](https://nguyentthong.github.io/), [Luu Anh Tuan](https://tuanluu.github.io/) (NeurIPS 2021)
 
 ![Teaser image](./asset/teaser.jpg)
@@ -17,4 +18,19 @@ url={https://openreview.net/forum?id=NEgqO9yB7e}
 }
 ```
 
+## Requirements
+- python3
+- pandas
+- gensim
+- numpy
+- torchvision
+- pytorch 1.7.0
+- scipy
+
 ## How to Run
+1. Download and put the dataset in the ```data``` folder.
+2. Train the model by running ```./scripts/train_models/run_{dataset}_{topk}.sh```
+3. Evaluate the model via executing ```./scripts/evaluate/run_{dataset}_npmi_{topk}.sh```
+
+## Acknowledgement
+Our implementation is based on the official code of [SCHOLAR](https://github.com/dallascard/scholar).
