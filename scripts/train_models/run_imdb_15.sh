@@ -1,0 +1,1 @@
+python run_scholar.py data/imdb/processed/ --dist 0 --topk 15 -k 50 --test-prefix test --device 0 --o ./outputs/scholar/imdb_50_15 --epochs 500 --model contrastiveScholar

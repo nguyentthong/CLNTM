@@ -1,0 +1,1 @@
+python run_scholar.py data/wiki/processed/ -k 50 --topk 15 --test-prefix test --device 0 --o ./outputs/scholar/wiki_50_15 --epochs 500 --model contrastiveScholar --batch-size 500 -l 0.001 --alpha 0.01 --dist 0
