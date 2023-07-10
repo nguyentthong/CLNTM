@@ -28,7 +28,7 @@ url={https://openreview.net/forum?id=NEgqO9yB7e}
 - scipy
 
 ## How to Run
-1. Download and put the dataset in the ```data``` folder: https://drive.google.com/file/d/1JeeUCzBRQqJUvdWGDN7aMRvIoBAIbZIc/view?usp=sharing
+1. Download and put the dataset in the ```data``` folder: [https://bit.ly/44mUEUv](https://bit.ly/44mUEUv)
 2. Train the model by running ```./scripts/train_models/run_{dataset}_{topk}.sh```
 3. Evaluate the model via executing ```./scripts/evaluate/run_{dataset}_npmi_{topk}.sh```
 
